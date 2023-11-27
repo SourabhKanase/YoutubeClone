@@ -1,0 +1,122 @@
+#nav {
+  height: 60px;
+  width: 85%;
+  margin: auto;
+}
+#container {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+  
+}
+#share {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap:2rem;
+}
+#noofviews{
+    color:  #AAA;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+#videoTittle{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-variant-numeric: stacked-fractions;
+font-feature-settings: 'hlig' on, 'dlig' on;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.18px;
+}
+#dataofvideo{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#channelname{
+    font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+#noofsubscriber
+{
+    color: var(--Gray-Color, #AAA);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 6px;
+}
+.commentcard{
+    display: grid;
+    grid-template-columns: 0.8fr 8fr;
+}
+.carddiv{
+    display: flex;
+    gap:0.4rem;
+}
+#tittle{
+color:white;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+#channelName,#viewsAndpostedTime{
+color:  #AAA;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+#timeofcomment{
+    color:#AAA;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+#abc{
+    color: #AAA;
+}
+/* #username{
+
+}
+#timeofcomment{
+    
+} */
+body{
+    background-color: black !important;
+    color:white !important;
+}

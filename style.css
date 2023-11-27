@@ -1,0 +1,53 @@
+.mainsection{
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    gap:1rem
+}
+.card{
+    
+    width:330px;
+    height: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-around;
+    
+}
+.card>div:first-child{
+    width: 300px;
+    height: 200px;
+}
+#tittle{
+    color:black;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+#channelName,#viewsAndpostedTime{
+color:  #AAA;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.card>div>#req{
+    width:45px;
+    height:45px;
+    border-radius: 50%;
+}
+.card>div>div>p{
+    margin:3px;
+}
+#displaydata{
+    display: flex;
+    
+    flex-wrap: wrap;
+
+}
+/* #req>img{
+    hight
+} */

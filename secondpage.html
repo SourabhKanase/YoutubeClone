@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./secondpage.css">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <nav id="nav">
+    </nav>
+    <div id="container">
+        <div style="height: 90vh;overflow-y: scroll;padding-left:20px;">
+             <div id="displayVideo"></div>
+             <h3 id="videoTittle"></h3>
+             <div id="dataofvideo">
+                <div>
+                    <span id="noofviews"></span>
+                </div>
+                <div class="icons">
+                    <span style="display: flex;align-items: center; gap:3px;">
+                        <span class="material-symbols-outlined">thumb_up</span>
+                        <span id="nooflikes"> </span>
+                    </span>
+                    <span>
+                        <span class="material-symbols-outlined">thumb_down</span>
+                        <span id="noofdislikes"></span>
+                    </span>
+                    <span style="display: flex;align-items: center;gap:0.5rem;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18" fill="none">
+                            <path d="M13 2.63L18.66 9L13 15.37V12V11H12C8.04 11 4.86 12 2.25 14.09C4.09 10.02 7.36 7.69 12.14 6.99L13 6.86V6V2.63ZM12 0V6C4.22 7.13 1.11 12.33 0 18C2.78 14.03 6.44 12 12 12V18L20 9L12 0Z" fill="black"/>
+                          </svg>
+                          <span id="share">Share</span>
+                    </span>
+                    <span>
+                        <span class="material-symbols-outlined">more_horiz</span>
+                    </span> 
+                </div>
+               
+                <!-- <span id="noofviews"></span>
+                <span class="material-symbols-outlined">thumb_up</span>
+                <span class="material-symbols-outlined">thumb_down</span>
+                <span class="material-symbols-outlined">share</span>
+                <span class="material-symbols-outlined">bookmarks</span>
+                <span class="material-symbols-outlined">more_horiz</span> -->
+             </div>
+             <div style="display: flex;width: 90%;margin: auto;justify-content: space-between;align-items: center;">
+                <div style="display: flex;gap:1rem;align-items: center;">
+                    <div id="channallog" >
+                          
+                    </div>
+                    <div>
+                        <p id="channelname"></p>
+                        <p id="noofsubscriber"></p>
+                    </div>
+                </div>
+                <button  style="width: fit-content;height: fit-content;padding: 7px;background-color: #C00;color: white;border-radius: 2px;border: none;">Subscribe</button>
+            </div>
+
+            <div style="display: flex;align-items: center;gap:1rem;width: 90%;margin: auto;">
+                <p id="noofcomments"></p>
+                <p>SORT BY</p>
+            </div>
+            <div id="commentsdiv" style="width: 90%;margin: auto;">
+                  
+            </div>
+        </div>
+        <div style="height: 90vh;overflow-y: scroll;" id="sidecards">
+            <div class="carddiv">
+                <!-- <div style="background-image: url(${videoinfo.snippet.thumbnails.high.url}); background-position: center; background-size: cover; color: white; display: flex; flex-direction: column; justify-content: flex-end; align-items: flex-end;" >
+                    <span id="time" style="margin:8px">${convertISO8601ToYouTubeFormat(videoinfo.durationOfvideo)}</span>
+                </div>
+                <div style="display: flex;gap:0.5rem;justify-content:space-between;align-items:center;">
+                    <div style="display: flex; flex-direction: column; justify-content: space-between;">
+                        <p id="tittle">${videoinfo.snippet.title}</p>
+                        <p id="channelName">${videoinfo.snippet.channelTitle}</p>
+                        <p id="viewsAndpostedTime">${formatViews(videoinfo.statastics.viewCount)} Views .${calculateThetimeGap(videoinfo.snippet.publishTime)}</p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <script src="https://www.youtube.com/iframe_api"  async></script>
+
+    <script src="./secondpage.js"></script>
+</body>
+</html>
+
+
+<!-- <div style="display:flex;gap:0.5rem;align-items:center;">
+    <img src="${videoinfo.channellog}" id="req">
+    <div style="display: flex; flex-direction: column; justify-content: space-between;">
+        <p id="tittle">${videoinfo.snippet.title}</p>
+        <p id="channelName">${videoinfo.snippet.channelTitle}</p>
+        <p id="viewsAndpostedTime">${formatViews(videoinfo.statastics.viewCount)} Views .${calculateThetimeGap(videoinfo.snippet.publishTime)}</p>
+    </div>
+</div> -->
+
